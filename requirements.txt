@@ -1,7 +1,4 @@
 alabaster==0.7.12
-anaconda-client==removed versions
-anaconda-navigator==removed versions
-anaconda-project==removed versions
 argh==0.26.2
 asgiref==3.4.1
 asn1crypto==1.3.0
