@@ -21,7 +21,7 @@ def add(request):
     # data=computerstore.objects.get(id=id)
     if request.method=="POST":
         form=store(request.POST,request.FILES)
-        if form.is_valid:
+        if form.is_valid():
             form.save()
             return redirect('/home1')
     return render(request,"add.html")
