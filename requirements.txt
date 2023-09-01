@@ -37,7 +37,7 @@ gunicorn==20.1.0
 heroku==0.1.4
 idna==3.2
 ipykernel==6.16.2
-ipython==8.14.0
+ipython==7.34.0
 isoduration==20.11.0
 setuptools==58.2.0
 jedi==0.18.2
