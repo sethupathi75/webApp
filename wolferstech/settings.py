@@ -79,11 +79,23 @@ WSGI_APPLICATION = 'wolferstech.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         # 'ENGINE': 'https://location-10b50-default-rtdb.firebaseio.com/',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        # 'ENGINE': 'https://location-10b50-default-rtdb.firebaseio.com/',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'sethu_user',
+        'USER': 'sethu_pathi',
+        'PASSWORD': 'g5KBOJab4jEvwTy5tKenbFY66kKdLqUB',
+        'HOST': 'dpg-cjq22r0jbais7381s8d0-a.oregon-postgres.render.com',
+        'PORT': '5432',
     }
 }
 
